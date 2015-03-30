@@ -11,8 +11,8 @@ if len(sys.argv) != 2:
     print 'Usage: python scansound.py <image-to-scan> <audio-output-filename>'
     raise SystemExit
 
-img_file = sys.argv[0]
-audio_file = sys.argv[1]
+img_file = sys.argv[1]
+audio_file = sys.argv[2]
 
 in_image = misc.imread(img_file)
 np.set_printoptions(linewidth = 300)
