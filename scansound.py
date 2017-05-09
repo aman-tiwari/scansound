@@ -7,7 +7,7 @@ from instuments import piano_freqs
 
 import sys
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 3:
     print 'Usage: python scansound.py <image-to-scan> <audio-output-filename>'
     raise SystemExit
 
