@@ -3,6 +3,6 @@ Interprets a black and white image as a score, as a spectrogram. Generates notes
 
 ## Usage
 
- `python scansound.py <image-to-scan> <audio-output-filename>`
+ `python scansound.py <image-to-scan> <audio-output-filename>.wav`
  
  
